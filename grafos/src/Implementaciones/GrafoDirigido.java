@@ -11,7 +11,7 @@ public class GrafoDirigido {
     public GrafoDirigido(int v) {
         V = v;
         adj = new LinkedList[V];
-        for (int i = 0; i < V; ++i) {
+        for (int i = 0; i < V; i++) {
             adj[i] = new LinkedList<>();
         }
     }
